@@ -119,7 +119,7 @@ Create .env.local in frontend directory:
 
 env
 NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api
-📡 API Endpoints
+## 📡 API Endpoints
 Method	Endpoint	Description
 <code>
 POST	/api/auth/register/	Register user
@@ -133,7 +133,7 @@ GET	/api/budgets/	List budgets
 </code>
 
 
-📊 Database Schema
+## 📊 Database Schema
 python
 User:
 - username, email, first_name, last_name
@@ -156,7 +156,7 @@ Budget:
 - user (FK), category (FK)
 - amount, period (MONTHLY/QUARTERLY/YEARLY)
 - month, year, created_at
-🔐 Authentication Flow
+## 🔐 Authentication Flow
 User registers with username, email, and password
 
 User logs in and receives JWT tokens
@@ -169,7 +169,7 @@ Token auto-refresh on expiration
 
 Logout clears tokens and redirects to login
 
-🗓️ Roadmap
+## 🗓️ Roadmap
 PostgreSQL integration
 
 Dark/Light theme toggle
@@ -184,7 +184,7 @@ Recurring transactions
 
 Financial goals tracking
 
-🤝 Contributing
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Fork the repository
@@ -197,20 +197,15 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-📄 License
+##📄 License
 This project is open source and available under the MIT License.
 
-👨‍💻 Author
-HamiParsa
+## 👨‍💻 Author
 
-GitHub: @HamiParsa
+**Developed by:** [HamiParsa](https://github.com/HamiParsa)
+💬 Full-Stack Developer | Building real-world projects with modern web technologies
 
-🙏 Acknowledgments
-Next.js team for amazing framework
-
-Django community for robust backend
-
-All open-source libraries used in this project
+---
 
 <div align="center">
   <img src="https://skillicons.dev/icons?i=nextjs,typescript,tailwind,django,python,sqlite" />
