@@ -30,6 +30,23 @@ Finance Tracker is a full-stack web application that helps you manage your perso
 - 👥 User management
 - 📋 Full CRUD operations
 
+
+## 📷 Project Picture
+<div align="center">
+  <img src="/pic1.png"  width="700px" />
+  </br>  </br>
+  <img src="/pic2.png"  width="700px" />
+   </br>  </br>
+  <img src="/pic3.png"  width="700px" />
+   </br>  </br>
+  <img src="/pic4.png"  width="700px" />
+   </br>  </br>
+  <img src="/pic5.png"  width="700px" />
+   </br>  </br>
+  <img src="/pic6.png"  width="700px" />
+</div>
+
+
 ## 🛠️ Tech Stack
 
 ### Frontend
