@@ -81,38 +81,38 @@ finance-tracker/
 git clone https://github.com/yourusername/finance-tracker.git
 cd finance-tracker/backend
 
-# Create virtual environment
+## Create virtual environment
 python -m venv venv
 
-# Activate (Windows)
+## Activate (Windows)
 venv\Scripts\activate
 
-# Activate (Mac/Linux)
+## Activate (Mac/Linux)
 source venv/bin/activate
 
-# Install dependencies
+## Install dependencies
 pip install -r requirements.txt
 
-# Run migrations
+## Run migrations
 python manage.py makemigrations
 python manage.py migrate
 
-# Create admin user
+## Create admin user
 python manage.py createsuperuser
 
-# Start server
+## Start server
 python manage.py runserver
 Frontend Setup
 
 cd ../frontend
 
-# Install dependencies
+## Install dependencies
 npm install
 
-# Create .env.local
+## Create .env.local
 echo "NEXT_PUBLIC_API_URL=http://127.0.0.1:8000/api" > .env.local
 
-# Start development server
+## Start development server
 npm run dev
 Environment Variables
 Create .env.local in frontend directory:
